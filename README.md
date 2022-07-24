@@ -23,9 +23,9 @@ runbot.bat
 
 ## How It Works
 
-'Type: **!register <YourUsername>** to be registered into the RPUGs database. Then type: **!queue join** to join the queue. Once there are enough people in the queue, the top two ranked players will draft their teams and the teams formed will play in a 3v3 or 2v2 private competitive match.'
+Type: `!register <YourUsername>` to be registered into the RPUGs database. Then type: `!queue join` to join the queue. Once there are enough people in the queue, the top two ranked players will draft their teams and the teams formed will play in a 3v3 or 2v2 private competitive match.
 
-The drafting process is done in Direct Messages with the bot. Once the drafting is completed, all players are alerted that the match is starting, along with the information about the teams.
+The drafting process is done in Direct Messages with the bot. Once the drafting is completed, all players are alerted with the information about the match.
 
 When the match has been played and is fully completed, both captains must report the score with **!matchreport** to record the match. The ratings of each player are then updated using TrueSkill.
 
@@ -52,4 +52,8 @@ Admin commands:
 ## Screenshots
 
 (Will be added in future)
+
+
+<a href='https://ko-fi.com/oslcorgo' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Support Me on Ko-fi' />
+
 
