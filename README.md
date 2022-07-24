@@ -53,7 +53,10 @@ Admin commands:
 
 (Will be added in future)
 
-
+## Support
 <a href='https://ko-fi.com/oslcorgo' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Support Me on Ko-fi' />
+
+Testing
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'B0B880VX7');kofiwidget2.draw();</script> 
 
 
