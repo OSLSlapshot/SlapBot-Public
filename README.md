@@ -1,8 +1,8 @@
 # OSL SlapBot
 
-This is a Discord bot tailored to the [Oceanic Slapshot League (OSL) Discord server] (https://discord.gg/osl) that helps set up ranked pickup games (RPUGs). It is a competitive environment where all players are specially invited, and ratings are tracked.
+This is a Discord bot tailored to the [Oceanic Slapshot League (OSL) Discord server](https://discord.gg/osl) that helps set up ranked pickup games (RPUGs). It is a competitive environment where all players are specially invited, and ratings are tracked.
 
-This bot was adapted from [a bot designed specifically for the game Battlerite] (https://github.com/KennethWangDotDev/discord-inhouse-league). The original code has been revamped with the following changes:
+This bot was adapted from [a bot designed specifically for the game Battlerite](https://github.com/KennethWangDotDev/discord-inhouse-league). The original code has been revamped with the following changes:
 * Changed the stats collection system and added additional stats, including devising a new file and data structure system for the stats
 * Several code improvements, including major bug fixes, and code structural changes
 * Added multiple new commands, including moderator commands (`adminreport`,`kick`,`cancel`) and user commands (all funzone commands,`active`,`stats`)
