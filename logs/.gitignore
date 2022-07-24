@@ -1,0 +1,3 @@
+# Ignore everything except for this file so that the directory may be cloned to the repository
+*
+!.gitignore

@@ -1,6 +1,3 @@
 node_modules
-logs 
-Database/data
 creds.json
-lib/queries/slapshot.js
 config.js
