@@ -1,0 +1,2 @@
+ID	MatchID	PlayerID	OldRating	RatingChange	SigmaChange	Mode
+R0	M0	-	-	-	-	-

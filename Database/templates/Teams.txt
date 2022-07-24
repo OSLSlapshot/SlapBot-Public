@@ -1,0 +1,2 @@
+ID	TeamName	TeamLeague	TeamRating	TeamSigma	NumTeamMatchesWon	NumTeamMatchesLost	TeamLastPlayed
+T0	-	-	-	-	-	-	-

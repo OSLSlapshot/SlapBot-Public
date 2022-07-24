@@ -1,0 +1,36 @@
+{
+  "name": "osl-rpugs-bot",
+  "version": "1.0.0",
+  "description": "Bot for running ranked pickup games (RPUGs) on the Oceanic Slapshot Discord.",
+  "engines": {
+    "node": "14.13.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel lib -d public -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GurGur (OSL)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bluebird": "^3.7.2",
+    "discord.js": "^12.3.1",
+    "google-spreadsheet": "^3.1.15",
+    "inspirational-quotes": "^1.0.8",
+    "mathjs": "^7.3.0",
+    "request": "^2.88.2",
+    "simple-node-logger": "^18.12.24",
+    "ts-trueskill": "^3.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSLSlapshot/SlapBot"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5"
+  }
+}

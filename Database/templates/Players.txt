@@ -1,0 +1,2 @@
+ID	DiscordID	Username	CasualRating	CasualSigma	TwosRating	TwosSigma	NumCasualMatchesWon	NumCasualMatchesLost	NumTwosMatchesWon	NumTwosMatchesLost	CasualLastPlayed	TwosLastPlayed
+P0	-	-	-	-	-	-	-	-	-	-	-	-

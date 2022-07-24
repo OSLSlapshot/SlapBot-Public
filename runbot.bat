@@ -1,0 +1,1 @@
+npx babel-node --presets @babel/preset-env lib/index.js
