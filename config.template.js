@@ -14,10 +14,12 @@ const cfg = {
         development: ['test'],	//not used
 		production: {	//All the listed channels are required to be created and visible to the bot on the server or else the bot will throw an error on startup
 			casualCh: 'rpugs-casual',
-			leagueCh: 'rpugs-league',
+			twosCh: 'rpugs-twos',
+			foursCh: 'rpugs-fours',
+			scrimsCh: 'rpugs-scrims',
 			infoCh: 'rpugs-rules',
-			modCh: 'moderation',
-			otherCh: 'funzone',
+			modCh: 'rpugs-moderation',
+			otherCh: 'misc',
 			updatesCh: 'rpugs-status',
 			tipsCh: 'general',
 		}
@@ -33,7 +35,11 @@ const cfg = {
             initialRating: 1500,
             initialSigma: 1.813 * 2
         },
-        leagueInitTS: {
+        twosInitTS: {
+            initialRating: 1500,
+            initialSigma: 1.813 * 2
+        },
+		foursInitTS: {
             initialRating: 1500,
             initialSigma: 1.813 * 2
         }
@@ -47,6 +53,10 @@ const cfg = {
 			quoteList: 'Quote List',	//List of quotes sheet name
 			tipList: 'Tip List',	//List of server tips
 		}
+	},
+	autoTips: {
+		autoTipsEnable: 0,	//0 or 1 ; 1 enables sending server tips to tipsCh with the period of the following parameter
+		autoTipsPeriod: 0.5,	// Period for auto tips in tipsCh in units of minutes 
 	},
 	leagueConditions: {
 		leagueEnable: 1,

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Bot for running ranked pickup games (RPUGs) on the Oceanic Slapshot Discord.",
   "engines": {
-    "node": "14.13.0"
+    "node": ">=14.13.0"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -13,27 +13,27 @@
   "author": "GurGur (OSL)",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.4",
     "bluebird": "^3.7.2",
     "chart.js": "^3.9.1",
     "chartjs-node-canvas": "^4.1.6",
-    "discord.js": "^12.3.1",
-    "google-spreadsheet": "^3.1.15",
-    "inspirational-quotes": "^1.0.8",
-    "mathjs": "^7.3.0",
+    "discord.js": "^14.9.0",
+    "google-spreadsheet": "^3.3.0",
+    "inspirational-quotes": "^2.0.1",
+    "mathjs": "^11.8.0",
     "merge-images": "^2.0.0",
     "request": "^2.88.2",
-    "simple-node-logger": "^18.12.24",
-    "ts-trueskill": "^3.0.4"
+    "simple-node-logger": "^21.8.12",
+    "ts-trueskill": "^3.2.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OSLSlapshot/SlapBot"
+    "url": "https://github.com/OSLSlapshot/SlapBot-Public"
   },
   "devDependencies": {
-    "@babel/cli": "^7.11.6",
-    "@babel/core": "^7.11.6",
-    "@babel/node": "^7.10.5",
-    "@babel/preset-env": "^7.11.5"
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4"
   }
 }
