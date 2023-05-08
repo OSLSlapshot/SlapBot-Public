@@ -6,10 +6,12 @@ This bot was adapted from [a bot designed specifically for the game Battlerite](
 * Changed the stats collection system and added additional stats, including devising a new file and data structure system for the stats
 * Several code improvements, including major bug fixes, and code structural changes
 * Added multiple new commands, including moderator commands (`adminreport`,`kick`,`cancel`) and user commands (all funzone commands,`active`,`stats`)
+* Added more detailed statistics (min/max ratings, streaks, etc) for the current season and career (i.e. all seasons) accessible via commands, including graphs for tracking rating, and player rating distribution
 * Added Discord embeds (for aesthetics and user-friendliness) for all user interaction
 * Tailored the drafting system to the OSL's needs
-* Expanded the drafting system to handle 2v2 drafting and league-game scrims
+* Expanded the drafting system to handle 2v2 and 4v4 drafting, and league-game scrims
 * A system for interfacing with Google Sheets (for instance, server tips, player lists, banned players, etc)
+* A system for conducting a player roll with odds based on total number of matches played
 
 ## Installation
 
@@ -23,7 +25,7 @@ runbot.bat
 
 ## How It Works
 
-Type: `!register <YourUsername>` to be registered into the RPUGs database. Then type: `!queue join` to join the queue. Once there are enough people in the queue, the top two ranked players will draft their teams and the teams formed will play in a 3v3 or 2v2 private competitive match.
+Type: `!register <YourUsername>` to be registered into the RPUGs database. Then type: `!queue join` to join the queue. Once there are enough people in the queue, the top two ranked players will draft their teams and the teams formed will play in a 2v2, 3v3 or 4v4 private competitive match.
 
 The drafting process is done in Direct Messages with the bot. Once the drafting is completed, all players are alerted with the information about the match.
 
@@ -31,7 +33,7 @@ When the match has been played and is fully completed, both captains must report
 
 
 ## Commands
-(Below list is not a complete list as of 24/07/22)
+(Below list is not a complete list as of 09/05/23)
 
 Default commands:
 
