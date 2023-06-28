@@ -14,6 +14,14 @@ This bot was adapted from [a bot designed specifically for the game Battlerite](
 * A system for interfacing with Google Sheets (for instance, priority-weighted server tips, player lists, banned players, etc)
 * A system for conducting a player roll with odds based on total number of matches played
 
+## Contents
+
+[Installation](https://github.com/OSLSlapshot/SlapBot-Public#installation)
+[How It Works](https://github.com/OSLSlapshot/SlapBot-Public#how-it-works)
+[Commands](https://github.com/OSLSlapshot/SlapBot-Public#commands)
+[Screenshots](https://github.com/OSLSlapshot/SlapBot-Public#screenshots)
+[Support](https://github.com/OSLSlapshot/SlapBot-Public#support)
+
 ## Installation
 
 Before you can run this, you will need a [Discord bot application](https://discordapp.com/developers/applications/me).
@@ -81,7 +89,20 @@ Funzone Commands:
 
 ## Screenshots
 
-(Will be added in future)
+Queue:
+![Queue](/thumbnails/screenshots/queue.png)
+
+Leaderboard:
+![Leaderboard](/thumbnails/screenshots/leaderboard.png)
+
+Live Player Tracker:
+![Live](/thumbnails/screenshots/live.png)
+
+Drafting:
+![Drafting](/thumbnails/screenshots/drafting.png)
+
+Statistics:
+![Rating](/thumbnails/screenshots/rating.png)
 
 ## Support
 <a href='https://ko-fi.com/oslcorgo' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Support Me on Ko-fi' />
