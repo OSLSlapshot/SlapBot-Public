@@ -89,19 +89,19 @@ Funzone Commands:
 
 ## Screenshots
 
-Queue:
+Queue:\
 ![Queue](/thumbnails/screenshots/queue.png)
 
-Leaderboard:
+Leaderboard:\
 ![Leaderboard](/thumbnails/screenshots/leaderboard.png)
 
-Live Player Tracker:
+Live Player Tracker:\
 ![Live](/thumbnails/screenshots/live.png)
 
-Drafting:
+Drafting:\
 ![Drafting](/thumbnails/screenshots/drafting.png)
 
-Statistics:
+Statistics:\
 ![Rating](/thumbnails/screenshots/rating.png)
 
 ## Support
