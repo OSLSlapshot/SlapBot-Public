@@ -16,10 +16,10 @@ This bot was adapted from [a bot designed specifically for the game Battlerite](
 
 ## Contents
 
-[Installation](https://github.com/OSLSlapshot/SlapBot-Public#installation)
-[How It Works](https://github.com/OSLSlapshot/SlapBot-Public#how-it-works)
-[Commands](https://github.com/OSLSlapshot/SlapBot-Public#commands)
-[Screenshots](https://github.com/OSLSlapshot/SlapBot-Public#screenshots)
+[Installation](https://github.com/OSLSlapshot/SlapBot-Public#installation)\
+[How It Works](https://github.com/OSLSlapshot/SlapBot-Public#how-it-works)\
+[Commands](https://github.com/OSLSlapshot/SlapBot-Public#commands)\
+[Screenshots](https://github.com/OSLSlapshot/SlapBot-Public#screenshots)\
 [Support](https://github.com/OSLSlapshot/SlapBot-Public#support)
 
 ## Installation
