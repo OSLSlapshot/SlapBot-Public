@@ -17,6 +17,7 @@
     "bluebird": "^3.7.2",
     "chart.js": "^3.9.1",
     "chartjs-node-canvas": "^4.1.6",
+    "discord-button-width": "^1.0.1",
     "discord.js": "^14.9.0",
     "google-spreadsheet": "^3.3.0",
     "inspirational-quotes": "^2.0.1",
