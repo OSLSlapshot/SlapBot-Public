@@ -1,2 +1,0 @@
-DiscordID	Username	League
--	-	-
