@@ -68,6 +68,11 @@ const cfg = {
 		shopperRoleId: ''
 	},
 	
+	//Community invite lobby control
+	inviteLobby: {
+		enable: true
+	},
+	
 	//OSL Tips control
 	autoTips: {
 		enable: true,	//0 or 1 ; 1 enables sending server tips to tipsCh with the period of the following parameter
