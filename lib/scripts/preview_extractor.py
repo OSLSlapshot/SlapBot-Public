@@ -26,15 +26,21 @@ def main():
     img_addblack = img.copy()
     img_addblack[np.all(img_addblack == (171,110,38), axis = -1)] = (0,0,0)
     img_addblack[np.all(img_addblack == (202,132,50), axis = -1)] = (0,0,0)
+    img_addblack[np.all(img_addblack == (149,96,28), axis = -1)] = (0,0,0)
 
     #set hsv range for generating a mask to get the preview or variants
     img_hsv = cv.cvtColor(img_addblack, cv.COLOR_BGR2HSV)
 
     #identify cosmetic rarity
     hsv_testranges = {
+        "exclusive": {
+            "color": "dark purple",
+            "lower_hsv": np.asarray([143, 177, 127]),
+            "upper_hsv": np.asarray([152, 250, 137])
+            },
         "legendary": {
             "color": "yellow",
-            "lower_hsv": np.asarray([10, 148, 235]),
+            "lower_hsv": np.asarray([16, 148, 235]),
             "upper_hsv": np.asarray([24, 183, 255])
             },
         "epic": {
@@ -74,10 +80,15 @@ def main():
 
     #apply mask for preview
     hsv_ranges = {
+        "exclusive": {
+            "color": "dark purple",
+            "lower_hsv": np.asarray([102, 123, 127]),
+            "upper_hsv": np.asarray([152, 247, 212])
+            },
         "legendary": {
             "color": "yellow",
-            "lower_hsv": np.asarray([0, 1, 150]),
-            "upper_hsv": np.asarray([170, 200, 255])
+            "lower_hsv": np.asarray([14, 10, 150]),
+            "upper_hsv": np.asarray([110, 200, 255])
             },
         "epic": {
             "color": "purple",

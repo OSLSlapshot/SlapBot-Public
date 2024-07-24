@@ -40,12 +40,19 @@ const cfg = {
 			tipList: 'Tip List',	//List of server tips
 		}
 	},
+	cosmeticsSheet: {
+		linkID: (removed),
+		sheetNames: {
+			exclusiveDefaultList: 'Exclusive+Default Cosmetics',
+			seasonPassList: 'Season Pass Cosmetics'
+		}
+	},
 	
 	//Test parameters
 	createGameLobby: true,	//whether to automatically create match lobbies or not
 	
 	//End-of-season Roll Date
-	nextRollDate: '1st of July 2024',
+	nextRollDate: '1st of October 2024',
 	
 	//slapshot API
 	slapshotAPI: {
