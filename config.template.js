@@ -230,31 +230,7 @@ const cfg = {
 				firstCaptain: 'r', //r - random, l - lower, h - higher
 				order: 'snake', //snake is the only option for now
 			}
-		},
-		{
-			enabled: true,
-			featured: true,
-			modeName: 'Dodgepuck',
-			designator: 'd',
-			emoji: '🇩',
-			//draftOrder: getDraftOrder(mode),
-			numPlayers: 6,
-			lobbySettings: {
-				arenaName: 'Obstacles',
-				periodsOn: false,
-				matchLength: 600,
-				gamemode: 'dodgepuck'
-			},
-			trueskill: {
-				initialRating: 1500,
-				initialSigma: 1.813 * 2
-			},
-			draft: {
-				firstCaptain: 'r', //r - random, l - lower, h - higher
-				order: 'snake', //snake is the only option for now
-			}
-		},
-		
+		},		
 	],
 	retiredModes: [
 		{
@@ -305,6 +281,30 @@ const cfg = {
 			numPlayers: 12,
 			lobbySettings: {
 				arenaName: 'Obstacles_XL',
+				periodsOn: false,
+				matchLength: 600,
+				gamemode: 'dodgepuck'
+			},
+			trueskill: {
+				initialRating: 1500,
+				initialSigma: 1.813 * 2
+			},
+			draft: {
+				firstCaptain: 'r', //r - random, l - lower, h - higher
+				order: 'snake', //snake is the only option for now
+			}
+		},
+		{
+			//enabled: false,
+			retired: true,
+			featured: true,
+			modeName: 'Dodgepuck',
+			designator: 'd',
+			emoji: '🇩',
+			//draftOrder: getDraftOrder(mode),
+			numPlayers: 6,
+			lobbySettings: {
+				arenaName: 'Obstacles',
 				periodsOn: false,
 				matchLength: 600,
 				gamemode: 'dodgepuck'
